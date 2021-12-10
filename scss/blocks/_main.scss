@@ -1,0 +1,56 @@
+.about{
+    margin: 20px 0;
+    background-color: #1B262F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    &__item{
+        max-width: 350px;
+        &__text{
+            font-family:'DMSerifdisplay';
+            color: #FBFCFE;
+            margin:30px 0 ;
+            font-weight: 400;
+        }
+        &__paragrf{
+            font-family: 'public-sans' ;
+            color: #FBFCFE;
+            font-size: 12px;
+        }
+        &__link{
+            border: 1px solid white;
+            color:#FBFCFE ;
+            padding: 5px 8px;
+            border-radius: 24px;
+            text-decoration: none;
+            &:hover{
+                background-color: white;
+                color:#1B262F ;
+            }
+        }
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        &__img{
+            width: 130px;
+            padding: 20px;
+        }
+    }
+}
+.card{
+    margin-top: 50px;
+    display: flex;
+    &__img{
+        width: 150x;
+    }
+    &__item{
+        width: 450px;
+    }
+}

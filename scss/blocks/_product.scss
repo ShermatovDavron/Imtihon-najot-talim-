@@ -1,0 +1,26 @@
+.product{
+    display: flex;
+    align-items: center;
+    &__item{
+        margin-right: 100px;
+        max-width: 300px;
+        &__text{
+            font-size: 40px;
+            color: #36536B;
+            font-weight: 400;
+        }
+        &__paragrf{
+            color: #6C8294;
+        }
+    }
+    &__img{
+        display: flex;
+        width: 300px;
+        &__iphone1{
+            max-width: 100%;
+        }
+        &__iphone2{
+            max-width: 100%;
+        }
+    }
+}
