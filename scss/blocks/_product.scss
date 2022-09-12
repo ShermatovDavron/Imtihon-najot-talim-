@@ -24,3 +24,20 @@
         }
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .product{
+        @include displayFlexSetter(space-between, center);
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        &__item{
+            width: 100%;
+        }
+        &__img{
+            @include displayFlexSetter(center, center);
+            width: 40%;
+        }
+    }
+}

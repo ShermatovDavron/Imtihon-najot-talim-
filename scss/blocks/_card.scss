@@ -1,0 +1,36 @@
+.card{
+    margin-top: 50px;
+    display: flex;
+    &__img{
+        width: 150x;
+    }
+    &__item{
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    .card{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &__img{
+            justify-content: center;
+            width: 100%;
+        }
+
+        &__item{
+            width: 100%;
+
+            &__text{
+                text-align: center;
+            }
+            &__paragrf{
+                text-align: center;
+            }
+        }
+
+    }
+}

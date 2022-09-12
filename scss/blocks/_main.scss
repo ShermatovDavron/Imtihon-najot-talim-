@@ -30,6 +30,7 @@
             }
         }
     }
+    
     &__list{
         display: flex;
         align-items: center;
@@ -44,13 +45,25 @@
         }
     }
 }
-.card{
-    margin-top: 50px;
-    display: flex;
-    &__img{
-        width: 150x;
-    }
-    &__item{
-        width: 450px;
+
+@media only screen and (max-width:900px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        &__item{
+           width: 90%;
+             margin: 0 auto;
+         }
+         &__list{
+             display: flex;
+             flex-wrap: wrap;
+             width: 90%;
+         }
+        
+
     }
 }
+
+

@@ -11,27 +11,30 @@
 
 <body>
     <h1 class="visually-hidden">Payapi</h1>
-    <div class="toggle ">
-        <span></span>
-    </div>
+    
     <header>
         <div class="container">
             <nav class="navbar">
                 <a class="navbar__link" href="./index.html">
                     <img class="navbar__link__logo" src="./image/logo.webp" alt="logi">
                 </a>
-                <ul class="navbar__item">
-                    <li class="navbar__item__text">
-                        <a class="navbar__item__text__link" href="">Pricing</a>
-                    </li>
-                    <li class="navbar__item__text">
-                        <a class="navbar__item__text__link" href="">About</a>
-                    </li>
-                    <li class="navbar__item__text">
-                        <a class="navbar__item__text__link" href="">Contact</a>
-                    </li>
-                </ul>
-                <button class="navbar__btn">Schedule a Demo</button>
+                <div class="toggle ">
+                    <span></span>
+                </div>
+                <div class="navbar__item">
+                    <ul class="navbar__item__text">
+                        <li class="navbar__item__text__list">
+                            <a class="navbar__item__text__list__link" href="">Pricing</a>
+                        </li>
+                        <li class="navbar__item__text__list">
+                            <a class="navbar__item__text__list__link" href="">About</a>
+                        </li>
+                        <li class="navbar__item__text__list">
+                            <a class="navbar__item__text__list__link" href="">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="navbar__item__btn">Schedule a Demo</button>
+                </div>
             </nav>
             <div class="hero">
                 <div class="hero__item">
@@ -42,8 +45,8 @@
                     </form>
                     <p class="hero__item__paragrf">Have any questions? Contact Us</p>
                 </div>
-                <div class="hero__img">
-
+                <div class="hero__mobile">
+                    <img src="./image/iPhone-X-Mockup.webp" alt="" class="hero__mobile__img">
                 </div>
             </div>
         </div>
@@ -173,12 +176,15 @@
                 </div>
             </div>
         </div>
+        <div class="myImg">
+            <img src="./image/DavronDildora.png" alt="DavronDildora">
+        </div>
         <div class="container">
             <div class="form">
                 <h2 class="form__text">Ready to start?</h2>
-                <form action="email" class="hero__item__form">
-                    <input type="email" placeholder="Enter email addres" class="form__input">
-                    <button class="form__btn" type="submit">Schedule a demo</button>
+                <form action="email" class="form__item">
+                    <input type="email" placeholder="Enter email addres" class="form__item__input">
+                    <button class="form__item__btn" type="submit">Schedule a demo</button>
                 </form>
             </div>
         </div>
@@ -222,7 +228,7 @@
                         </a>
                     </li>
                     <li class="footer__links__item">
-                        <aclass="footer__links__item__link" href="#">
+                        <a class="footer__links__item__link" href="#">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path id="Shape" fill-rule="evenodd" clip-rule="evenodd"
